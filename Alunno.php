@@ -6,7 +6,7 @@
         protected $cognome;
         protected $eta;
 
-        public function Alunno($nome, $cognome, $eta) {
+        public function __construct($nome, $cognome, $eta) {
             $this->nome = $nome;
             $this->cognome = $cognome;
             $this->eta = $eta;
